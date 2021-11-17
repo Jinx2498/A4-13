@@ -2589,3 +2589,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2523.307896 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(1723fc64a35134ad49cd04cb36c983d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(1723fc64a35134ad49cd04cb36c983d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e28b6288d99f96db6ba3ab7ad0d37f') in 0.311789 seconds 
+  Import took 0.347332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.619758 seconds.
+  path: Assets/Materials/New Material 1.mat
+  artifactKey: Guid(54c57370399794c07acb3bc0294629f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 1.mat using Guid(54c57370399794c07acb3bc0294629f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f37a6552e285f5529fc3674087e277d') in 0.025251 seconds 
+  Import took 0.032512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 231.890013 seconds.
+  path: Assets/Materials/New Material 1.mat
+  artifactKey: Guid(54c57370399794c07acb3bc0294629f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 1.mat using Guid(54c57370399794c07acb3bc0294629f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad57e09b1f533374f4025ef031cb93ad') in 0.043694 seconds 
+  Import took 0.047493 seconds .
+
