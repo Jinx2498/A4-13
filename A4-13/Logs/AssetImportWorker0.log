@@ -4214,3 +4214,59 @@ Received Import Request.
 Start importing Assets/Scenes/Level3.unity using Guid(380fff3d8a17c437a9de0950f0571910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8124c3f5cfb6d9d9e7d5b016a4cc35') in 0.005993 seconds 
   Import took 0.010097 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 236.455535 seconds.
+  path: Assets/Scenes/Main Camera.prefab
+  artifactKey: Guid(722e25feb12d04ecda979b891710aecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Camera.prefab using Guid(722e25feb12d04ecda979b891710aecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d0146f177d6d083e1a24b3486879e9') in 0.070543 seconds 
+  Import took 0.078363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.113855 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(9f2c1e870c87f40b38109b7f844c2153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(9f2c1e870c87f40b38109b7f844c2153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056127d5a70cb701986d6d6cb7b35b31') in 0.003807 seconds 
+  Import took 0.008520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.160081 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(915f800c649fd4d2ca51129edb8162ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(915f800c649fd4d2ca51129edb8162ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64579ed1587c35b8b1a3eb370040d926') in 0.003671 seconds 
+  Import took 0.009143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.147911 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(915f800c649fd4d2ca51129edb8162ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(915f800c649fd4d2ca51129edb8162ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a915ac16051193425eaca1a81d4b8b') in 0.004239 seconds 
+  Import took 0.010490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.847503 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(915f800c649fd4d2ca51129edb8162ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(915f800c649fd4d2ca51129edb8162ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd781f6d0fb552d3d7c71b10633bc4363') in 0.003498 seconds 
+  Import took 0.010439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.060505 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(915f800c649fd4d2ca51129edb8162ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(915f800c649fd4d2ca51129edb8162ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c23d9e3fcb09a2ee7b972b688c46dce') in 0.004338 seconds 
+  Import took 0.009553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.192503 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(915f800c649fd4d2ca51129edb8162ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(915f800c649fd4d2ca51129edb8162ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c306c86304ad185b93b1d3f4ca03278c') in 0.003988 seconds 
+  Import took 0.010299 seconds .
+
