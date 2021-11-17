@@ -6,7 +6,9 @@ public class MovePlayer : MonoBehaviour
     public Rigidbody rb;        // Player
     public float force = 50f;   // Player Movement
     public int jumpCount = 2;   // Jump Counter
-
+    // private Vector3 MousePositionViewport = Vector3.zero;
+    // private Quaternion DesiredRotation = new Quaternion();
+    // private float RotationSpeed = 15;
     void Update()
     {
         if (Input.GetKeyDown("space"))
@@ -36,6 +38,13 @@ public class MovePlayer : MonoBehaviour
             yield return new WaitForSeconds(1.5f);
             jumpCount = 2;
         }
+
+        // Vector3 mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.z, 10);
+        // Vector3 lookPos = Camera.main.ScreenToWorldPoint(mousePos);
+        // lookPos = lookPos - transform.position;
+        // float angle = Mathf.Atan2(lookPos.z, lookPos.x) * Mathf.Rad2Deg;
+        // transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
     }
 
     void FixedUpdate()
@@ -60,5 +69,7 @@ public class MovePlayer : MonoBehaviour
         {
             rb.AddForce(force * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
+        
+        
     }
 }
