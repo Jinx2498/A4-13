@@ -12,12 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1.unity
     guid: 9f2c1e870c87f40b38109b7f844c2153
   - enabled: 1
-    path: Assets/Scenes/CompletionScreen.unity
-    guid: b7564dc59ab574f72a81194b57916035
-  - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: 915f800c649fd4d2ca51129edb8162ef
   - enabled: 1
     path: Assets/Scenes/Level3.unity
     guid: 380fff3d8a17c437a9de0950f0571910
+  - enabled: 1
+    path: Assets/Scenes/CompletionScreen.unity
+    guid: b7564dc59ab574f72a81194b57916035
   m_configObjects: {}
