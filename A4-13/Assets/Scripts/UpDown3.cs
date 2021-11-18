@@ -12,8 +12,8 @@ public class UpDown3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        point1 = new Vector3(135, 8, 95);
-        point2 = new Vector3(135, 2.5f, 95);
+        point1 = new Vector3(135, 2.5f, 95);
+        point2 = new Vector3(135, 8, 95);
     }
 
     // Update is called once per frame

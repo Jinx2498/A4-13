@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UpDown5 : MonoBehaviour
+public class UpDown14 : MonoBehaviour
 {
 
     public float movementSpeed = 1f;
@@ -12,8 +12,8 @@ public class UpDown5 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        point1 = new Vector3(135, 2.5f, 135);
-        point2 = new Vector3(135, 8, 135);
+        point1 = new Vector3(60, 8, 275);
+        point2 = new Vector3(60, 2.5f, 275);
     }
 
     // Update is called once per frame
