@@ -5,24 +5,22 @@ using UnityEngine.UI;
 
 public class FinalCount : MonoBehaviour
 {
-    /*
-    public Text text;
     public int coinTotal;
     
     // Start is called before the first frame update
     void Start()
     {
-        text.text = GetComponent<PlayerStats>().points.ToString();
+        GameObject statsObj = GameObject.Find("PlayerStats");
+        coinTotal = statsObj.GetComponent<PlayerStats>().points;
+        TMPro.TextMeshPro tm = GameObject.Find("Text/Coins").GetComponent<TMPro.TextMeshPro>();
+        tm.text = "Coins Collected: " + coinTotal.ToString();
+        Destroy(statsObj);
     }
-    
-    // Update is called once per frame
-    void Update()
-    {
-        text.text = coinTotal.ToString();
-    }*/
 
+    /*
     private void OnGUI()
     {
-        GUI.Label(new Rect(10, 10, 100, 20), "Coins Collected: " + GetComponent<PlayerStats>().points);
+        GUI.Label(new Rect(10, 10, 100, 20), "Coins Collected: " + coinTotal);
     }
+    // */
 }

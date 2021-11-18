@@ -17,7 +17,7 @@ public class CoinRotation : MonoBehaviour
         AudioSource audio = GetComponent<AudioSource>();
         audio.Play();
 
-        other.GetComponent<PlayerStats>().points++;
+        GameObject.Find("PlayerStats").GetComponent<PlayerStats>().points++;
 
         // hide coin & destroy when sound is done
         GetComponent<Renderer>().enabled = false;
