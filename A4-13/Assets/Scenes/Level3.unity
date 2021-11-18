@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1463,10 +1463,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 619496623}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2cf884930381c4bea890b6af50dde730, type: 3}
+  m_Script: {fileID: 11500000, guid: aada005d86ae64ba8930d9c294ec99ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadCompletionScreen: 1
+  levelToLoad: CompletionScreen
 --- !u!1 &632884982
 GameObject:
   m_ObjectHideFlags: 0
@@ -2436,6 +2436,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 0}
     - {fileID: 0}
+    - {fileID: 1726100263, guid: ad0bb9bf8373e4e97b33f97e12b3cbf0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ad0bb9bf8373e4e97b33f97e12b3cbf0, type: 3}
 --- !u!1 &794510675 stripped
 GameObject:

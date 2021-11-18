@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EndZoneLevel1 : MonoBehaviour
+public class EndZone : MonoBehaviour
 {
     Material mat;
-    public bool loadLevel2;
+    public string levelToLoad = "";
 
     private void Start()
     {
@@ -19,8 +19,11 @@ public class EndZoneLevel1 : MonoBehaviour
         // Ignore non-player collisions
         if (other.gameObject.tag != "Player") return;
 
-        mat.color = new Color(0, 1.0f, 0, 0.5f);
+        mat.color = new Color(1.0f, 0.9f, 0, 0.5f);
 
-        if (loadLevel2) SceneManager.LoadSceneAsync("Level2");
+        if (!levelToLoad.Equals(""))
+        {
+            SceneManager.LoadSceneAsync(levelToLoad);
+        }
     }
 }
