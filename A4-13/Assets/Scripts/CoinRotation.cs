@@ -9,8 +9,17 @@ public class CoinRotation : MonoBehaviour
         transform.Rotate(30 * Time.deltaTime, 15 * Time.deltaTime, 45 * Time.deltaTime, Space.World);
     }
 
-    void OnCollisionEnter(Collision other)
+    public void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
+        // ignore non-player collisions
+        if (other.gameObject.tag != "Player") return;
+
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.Play();
+
+        // hide coin & destroy when sound is done
+        GetComponent<Renderer>().enabled = false;
+        GetComponent<CapsuleCollider>().enabled = false;
+        Destroy(gameObject, audio.clip.length);
     }
 }
