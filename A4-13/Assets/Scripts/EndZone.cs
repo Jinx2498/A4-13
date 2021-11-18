@@ -14,7 +14,7 @@ public class EndZone : MonoBehaviour
     }
 
     // Object collides with another object
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
         // Ignore non-player collisions
         if (other.gameObject.tag != "Player") return;
@@ -23,7 +23,7 @@ public class EndZone : MonoBehaviour
 
         if (!levelToLoad.Equals(""))
         {
-            SceneManager.LoadSceneAsync(levelToLoad);
+            SceneManager.LoadScene(levelToLoad);
         }
     }
 }
