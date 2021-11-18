@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class FinalCount : MonoBehaviour
 {
-    
+    /*
     public Text text;
     public int coinTotal;
     
@@ -14,10 +14,15 @@ public class FinalCount : MonoBehaviour
     {
         text.text = GetComponent<PlayerStats>().points.ToString();
     }
-    /*
+    
     // Update is called once per frame
     void Update()
     {
         text.text = coinTotal.ToString();
     }*/
+
+    private void OnGUI()
+    {
+        GUI.Label(new Rect(10, 10, 100, 20), "Coins Collected: " + GetComponent<PlayerStats>().points);
+    }
 }
